@@ -1,16 +1,16 @@
-$1              /\
-$1            //oo\\
-$1          //oooooo\\
-$2        //ooo/_\oooo\\
-$2      //ooo//   \\oooo\\
-$2    //oooo/       \\oooo\\
-$3   /ooooo|          |ooooo\
-$3    \\oooo\        /oooo//
-$4      \\ooo\\    //ooo//
-$4        \\ooo\__/ooo//
-$4          \ooooooo//
-$5          /ooooo/\
-$5         /oooo//  \_\
-$5       //oo/_/   /_oo\\
-$6      //__/        \__\\
-$6    /_/                \_\
+$1             cMMc
+$1           cMMMMMMc
+$1        .cMMMMMMMMMMc.
+$2      .oMMMMMMooMMMMMMc.
+$2    .oMMMMMMo.  .oMMMMMMo.
+$2  :oMMMMMMc.      .oMMMMMMo.
+$3  cMMMMMMM.        :MMMMMMM:
+$3    :MMMMMMM:    :MMMMMMM:
+$4      :MMMMMMM:cMMMMMMM:
+$4        :MMMMMMMMMMMo:
+$4          cMMMMMMMo.
+$5         cMMMMMMo.:Mc
+$5       :MMMMMMc..MMMMM:
+$5     .oMMMoc.    .coMMMo.
+$6    cMMo:            :oMMc
+$6  .cc.                  .cc.

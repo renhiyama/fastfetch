@@ -1,16 +1,18 @@
+$1              M
+$1             cMc
 $1             cMMc
-$1           cMMMMMMc
-$1        .cMMMMMMMMMMc.
+$2           cMMMMMMc
+$2        .cMMMMMMMMMMc.
 $2      .oMMMMMMooMMMMMMc.
-$2    .oMMMMMMo.  .oMMMMMMo.
-$2  :oMMMMMMc.      .oMMMMMMo.
+$3    .oMMMMMMo.  .oMMMMMMo.
+$3  :oMMMMMMc.      .oMMMMMMo.
 $3  cMMMMMMM.        :MMMMMMM:
-$3    :MMMMMMM:    :MMMMMMM:
+$4    :MMMMMMM:    :MMMMMMM:
 $4      :MMMMMMM:cMMMMMMM:
 $4        :MMMMMMMMMMMo:
-$4          cMMMMMMMo.
+$5          cMMMMMMMo.
 $5         cMMMMMMo.:Mc
 $5       :MMMMMMc..MMMMM:
-$5     .oMMMoc.    .coMMMo.
+$6     .oMMMoc.    .coMMMo.
 $6    cMMo:            :oMMc
-$6  .cc.                  .cc.
+$6  .                        .

@@ -3,6 +3,23 @@
 #include "common/color.h"
 
 static const FFlogo R[] = {
+    #ifdef FASTFETCH_DATATEXT_LOGO_RUNIXOS
+    // RunixOS
+    {
+        .names = { "RunixOS" },
+        .lines = FASTFETCH_DATATEXT_LOGO_RUNIXOS,
+        .colors = {
+            "38;2;147;51;234", // RovelStars gradient, purple ...
+            "38;2;161;49;211",
+            "38;2;176;46;188",
+            "38;2;190;44;165",
+            "38;2;205;42;142",
+            "38;2;219;39;119", // ... to magenta
+        },
+        .colorKeys = "38;2;147;51;234",
+        .colorTitle = "38;2;219;39;119",
+    },
+    #endif
     #ifdef FASTFETCH_DATATEXT_LOGO_RADIX
     // Radix
     {

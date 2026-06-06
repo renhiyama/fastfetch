@@ -350,7 +350,12 @@ static void detectOS(FFOSResult* os) {
 
     // Refer: https://gist.github.com/natefoo/814c5bf936922dad97ff
 
-    parseOsRelease(FASTFETCH_TARGET_DIR_ETC "/os-release", os);
+    // RunixOS keeps its release info outside the FHS, at /Core/Config/OSReleaseInfo.
+    // Prefer it; only fall back to the standard locations if it is absent.
+    parseOsRelease(FASTFETCH_TARGET_DIR_ROOT "/Core/Config/OSReleaseInfo", os);
+
+    if (os->id.length == 0 && os->name.length == 0 && os->prettyName.length == 0)
+        parseOsRelease(FASTFETCH_TARGET_DIR_ETC "/os-release", os);
 
     if (os->id.length == 0 || os->version.length == 0 || os->prettyName.length == 0 || os->codename.length == 0) {
         parseLsbRelease(FASTFETCH_TARGET_DIR_ETC "/lsb-release", os);
